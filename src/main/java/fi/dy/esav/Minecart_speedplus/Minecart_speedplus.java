@@ -27,7 +27,7 @@ public class Minecart_speedplus extends JavaPlugin {
   }
   
   public boolean setSpeedMultiplier(double multiplier) {
-    if ((((0.0D < multiplier) ? 1 : 0) & ((multiplier <= 4.0D) ? 1 : 0)) != 0) {
+    if ((((0.0D < multiplier) ? 1 : 0) & ((multiplier <= 30.0D) ? 1 : 0)) != 0) {
       speedmultiplier = multiplier;
       return true;
     } 
